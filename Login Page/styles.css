@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+.container{
+    background: #1abc9c;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    height: 334px;
+    border-radius: 5px;
+    width: 320px;
+}
+h2{
+    font-size: 34px;
+    color: white;
+}
+header{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #16a085;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+}
+form{
+    background-color: white;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.user{
+    background-color: #16a085;
+    color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.lock{
+    background-color: #16a085;
+    color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.passwordContainer{
+    display: flex;
+    padding: 5px;
+    position: absolute;
+    top: 75px;
+}
+.emailContainer{
+    display: flex;
+    padding: 5px;
+    position: absolute ;
+    top: 28px;;
+}
+.email{
+    padding-left: 10px;
+    width: 250px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.email:focus{
+    outline: none;
+    border: 2px solid #16a085;
+}
+.email::placeholder{
+    color: #999;
+}
+.password{
+    padding-left: 10px;
+    width: 250px;
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.password:focus{
+    outline: none;
+    border: 2px solid #16a085;
+}
+.password::placeholder{
+    color: #999;
+}
+.forgot{
+    color: #16a085;
+    text-decoration: none;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+}
+.forgot:hover{
+    text-decoration: underline;
+}
+.btn{
+    font-size: 18px;
+    color: white;
+    background-color: #16a085;
+    border: none;
+    width: 280px;
+    height: 30px;
+    position: absolute;
+    bottom: 65px;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.btn:hover{
+    background-color: #097962;
+}
+.signup-container{
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    align-items: center;
+}
+span{
+    padding: 5px;
+}
+.signup-container a{
+    text-decoration: none;
+    color: #16a085;
+}
+.signup-container a:hover{
+    text-decoration: underline;
+}
